@@ -7,3 +7,69 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #C1B5AD;
 }
+
+#map {
+  display: flex;
+  height: 92vh;
+  width: 70%;
+}
+
+#content {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding-top: 60px;
+}
+
+#aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+  background: lightgrey;
+}
+
+#navbar {
+  background-color: #FF4400;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  z-index: 10;
+}
+
+#activity-type {
+  font-weight: bold;
+  padding: 25px;
+  background-color: #C9B571;
+}
+
+.x {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#form {
+  width: 100%;
+}
+
+#itinerary {
+  padding: 25px;
+  background-color: #56E069;
+  position: relative;
+  height: 62vh;
+}
+
+#itinerary-header {
+  background-color: #CC992D;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}

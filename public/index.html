@@ -4,13 +4,57 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href='https://api.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.css' rel='stylesheet' />
   <link rel="stylesheet" type="text/css" href="./style.css"/>
   <title>Document</title>
 </head>
 <body>
-  <div id="map">
+  <header id="navbar">
 
+  </header>
+  <div id="content">
+      <div id="map">
+
+        </div>
+        <div id="aside">
+          <aside id="activity-type">
+            <form action = '/' id="form">
+              <label for = "hotels">Hotels</label>
+              <div>
+                <select name = "hotels">
+                  <option value = "Hilton">Hilton</option>
+                  <option value = "Sheraton">Sheraton</option>
+                </select>
+                <button type='button' class="x">X</button>
+              </div>
+
+              <label for = "restaurants">Restaurants</label>
+              <div>
+                <select name = "restaurants">
+                  <option value = "OliveGarden">Olive Garden</option>
+                  <option value = "TacoBell">Taco Bell</option>
+                </select>
+                <button type='button' class="x">X</button>
+              </div>
+
+              <label for = "things-to-do">Things To Do</label>
+              <div>
+                <select name = "things-to-do">
+                  <option value = "see-a-show">See A Show</option>
+                  <option value = "biking">Biking</option>
+                </select>
+                <button type='button' class="x">X</button>
+              </div>
+            </form>
+          </aside>
+          <aside id='itinerary'>
+          <div id="itinerary-header">
+            <h1>Itinerary:</h1>
+          </div>
+        </aside>
+      </div>
   </div>
+
 
   <script type="text/javascript" src="./bundle.js"></script>
 </body>
